@@ -1,0 +1,254 @@
+{
+    "destinations": [
+        {   "id": 1,
+            "img_url": "HYATT_REGENCY_CREEK.png",
+            "country": "Emirates Arabes Unis",
+            "place": "Dubaï",
+            "label": "Hyatt Regency Creek",
+            "rating": 5,
+            "upto": "Dès 67€/pers",
+            "redirect_label": "VERS LES EMIRATS ARABES UNIS — DUBAÏ",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "Premium"
+                },
+                {
+                    "classname": "option",
+                    "label": "Surclassement offert"
+                }
+            ],
+            "link": ""
+        },
+        {
+            "id": 2,
+            "img_url": "FAIRMONT_DUBAI.png",
+            "country": "Emirates Arabes Unis",
+            "place": "Dubaï",
+            "label": "Fairmont Dubaï",
+            "rating": 5,
+            "upto": "Dès 99€/pers",
+            "redirect_label": "VERS LES EMIRATS ARABES UNIS — DUBAÏ",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "Premium"
+                },
+                {
+                    "classname": "option",
+                    "label": "Rooftop"
+                }
+            ],
+            "link": ""
+        },
+        {
+            "id": 3,
+            "img_url": "STHALA_MARC_PATRA.png",
+            "country": "Indonésie",
+            "place": "Bali & Gili",
+            "label": "Combiné Sthala - Marc - Patra",
+            "rating": 0,
+            "upto": "Dès 469€/pers",
+            "redirect_label": "VERS L'INDONÉSIE — BALI & GILI",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "Combiné"
+                },
+                {
+                    "classname": "option",
+                    "label": "Petit déjeuner inclus"
+                }
+            ],
+            "link": ""
+        },
+        {
+            "id": 4,
+            "img_url": "NOKU_MALDIVES.png",
+            "country": "Maldives",
+            "place": "Atoll de Noonu",
+            "label": "Noku Maldives",
+            "rating": 5,
+            "upto": "Jusqu'à -36%",
+            "redirect_label": "VERS MALDIVES — ATOLL DE NOONU",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "Premium"
+                },
+                {
+                    "classname": "option",
+                    "label": "Massage offert"
+                }
+            ],
+            "link": ""
+        },
+        {   "id": 5,
+            "img_url": "CLOS_DU_LITTORAL.png",
+            "country": "Maurice",
+            "place": "Grand Baie",
+            "label": "Clos du Littoral",
+            "rating": 4,
+            "upto": "Dès 538€/pers",
+            "redirect_label": "VERS MAURICE — GRAND BAIE",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "Premium"
+                },
+                {
+                    "classname": "option",
+                    "label": "Villas avec Piscine Privée"
+                }
+            ],
+            "link": ""
+        },
+        {
+            "id": 6,
+            "img_url": "ECHAPEE_SRI_LANKAISE.png",
+            "country": "Sri Lanka",
+            "place": "Sri Lanka",
+            "label": "Echappée SriLankaise",
+            "rating": 3,
+            "upto": "Dès 699€/pers",
+            "redirect_label": "VERS LE SRI LANKA",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "Circuit"
+                },
+                {
+                    "classname": "option",
+                    "label": "Privatif"
+                }
+            ],
+            "link": ""
+        },
+        {
+            "id": 7,
+            "img_url": "ENTRE_CULTURE_ET_PLAGES.png",
+            "country": "Vietnam",
+            "place": "De Hanoï à Hoi An",
+            "label": "Entre Culture et Plages",
+            "rating": 4,
+            "upto": "Dès 779€/pers",
+            "redirect_label": "VERS LE VIETNAM — DE HANOÏ À HOI AN",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "Circuit"
+                },
+                {
+                    "classname": "option",
+                    "label": "Privatif"
+                }
+            ],
+            "link": ""
+        },
+        {
+            "id": 8,
+            "img_url": "ECHAPEE_SRI_LANKAISE.png",
+            "country": "Sri Lanka",
+            "place": "Sri Lanka",
+            "label": "Echappée SriLankaise",
+            "rating": 3,
+            "upto": "Dès 699€/pers",
+            "redirect_label": "VERS LE SRI LANKA",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "Circuit"
+                },
+                {
+                    "classname": "option",
+                    "label": "Privatif"
+                }
+            ],
+            "link": ""
+        },
+        {
+            "id": 9,
+            "img_url": "CLOS_DU_LITTORAL.png",
+            "country": "Maurice",
+            "place": "Grand Baie",
+            "label": "Clos du Littoral",
+            "rating": 4,
+            "upto": "Dès 538€/pers",
+            "redirect_label": "VERS MAURICE — GRAND BAIE",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "Premium"
+                },
+                {
+                    "classname": "option",
+                    "label": "Villas avec Piscine Privée"
+                }
+            ],
+            "link": ""
+        },
+        {
+            "id": 10,
+            "img_url": "CLOS_DU_LITTORAL.png",
+            "country": "Maurice",
+            "place": "Grand Baie",
+            "label": "Clos du Littoral",
+            "rating": 4,
+            "upto": "Dès 538€/pers",
+            "redirect_label": "VERS MAURICE — GRAND BAIE",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "Premium"
+                },
+                {
+                    "classname": "option",
+                    "label": "Villas avec Piscine Privée"
+                }
+            ],
+            "link": ""
+        },
+        {
+            "id": 11,
+            "img_url": "FAIRMONT_DUBAI.png",
+            "country": "Emirates Arabes Unis",
+            "place": "Dubaï",
+            "label": "Fairmont Dubaï",
+            "rating": 5,
+            "upto": "Dès 99€/pers",
+            "redirect_label": "VERS LES EMIRATS ARABES UNIS — DUBAÏ",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "Premium"
+                },
+                {
+                    "classname": "option",
+                    "label": "Rooftop"
+                }
+            ],
+            "link": ""
+        },
+        {
+            "id": 12,
+            "img_url": "STHALA_MARC_PATRA.png",
+            "country": "Indonésie",
+            "place": "Bali & Gili",
+            "label": "Combiné Sthala - Marc - Patra",
+            "rating": 0,
+            "upto": "Dès 469€/pers",
+            "redirect_label": "VERS L'INDONÉSIE — BALI & GILI",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "Combiné"
+                },
+                {
+                    "classname": "option",
+                    "label": "Petit déjeuner inclus"
+                }
+            ],
+            "link": ""
+        }
+    ]
+}

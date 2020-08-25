@@ -1,0 +1,92 @@
+.slider{
+    position: relative;
+    padding-top: 10vh;
+
+    .slider-container{
+        position: relative;
+        border-radius: 10px;
+        width: 42%;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media all and(min-width:320px) and (max-width:700px){
+            width: 100%;
+        }
+
+
+        @media all and(min-width:701px) and (max-width:768px){
+            width: 89%;
+        }
+
+
+        .slider-inner{
+            display: flex;
+            position: relative;
+
+            .slider-item{
+                position: relative;
+                width: 702px;
+
+
+                .redirect-label{
+                    overflow: hidden;
+
+                    .slider-caption{
+                        position: absolute;
+                        width: 100%;
+                        padding-left: 2%;
+                        color: white;
+                        text-decoration: none;
+                        bottom:  calc(1% - 1px);
+                        background-color: rgba($veepee-black,0.3);
+                    }
+                }
+            }
+            
+            .active{
+                display: block;
+
+                animation : 0.5s linear 0s sliderAnime;
+
+
+                @keyframes sliderAnime {
+                    
+                    from{opacity: 0 ;} to {opacity: 1; }
+                }
+            }
+
+            .disable{
+                display: none;
+            }
+        }
+
+        .slider-control{
+            top: 50%;
+            transform: translateY(-50%);
+            position: absolute;
+            width: 100%;
+            justify-content: space-between;
+            display: flex;
+
+
+            .slider-control-left,.slider-control-right{
+                color: $veepee-orange;
+                font-size: 25px;
+                transition: ease 0.3s;
+                &:hover{
+                    color: #e0655e;
+                    cursor: pointer;
+                }
+            }
+
+            .slider-control-left{
+                margin-left: 2%;
+            }
+            .slider-control-right{
+                margin-right: 2%;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,17 @@
+
+//import styles root
+@import './variables/variables';
+@import './root/root';
+
+//import layouts
+@import './layouts/header';
+@import './layouts/footer';
+
+
+//import Pages
+@import './pages/homePages';
+
+//import Components
+@import './components/card-voyage';
+@import './components/slider';
+@import './components/filterCountry';

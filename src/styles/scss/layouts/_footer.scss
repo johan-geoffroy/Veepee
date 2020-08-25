@@ -1,0 +1,43 @@
+//style footer
+
+.footer-container{
+    
+    width: 100%;
+
+    footer{
+        text-align: center;
+        text-transform: uppercase;
+        background-color: $veepee-gray;
+        margin-left: 10%;
+        margin-right: 10%;
+
+        @media all and (min-width:320px) and (max-width:728px){
+            margin-left:0;
+            margin-right: 0;
+        }
+
+        .footer-content{
+            padding-top: 1%;
+            padding-bottom: 1%;
+            color: $veepee-white;
+            text-transform: uppercase;
+
+            & :nth-child(1){
+                line-height: 0;
+            }
+
+            & :nth-child(2)::after{
+                content: '';
+                display: block;
+                border-bottom: 4px $veepee-orange solid;
+                width: calc(17rem - 11px);
+                padding-top: 10px;
+                margin: auto;
+
+                @media all and (min-width:320px) and (max-width:475px){
+                        width: calc(5rem + 11px);
+                }
+            }
+        }
+    }
+}

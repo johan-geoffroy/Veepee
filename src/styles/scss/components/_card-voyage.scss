@@ -1,0 +1,152 @@
+.resort-container{
+    position: relative;
+
+    .wrapper{
+        display: none;        
+    }
+    
+    .list-resort{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+        position: relative;
+
+        .start-line-icon{
+            top: 48%;
+        }
+
+        .end-line-icon{
+            bottom: 0;
+        }
+
+        .start-line-icon, .end-line-icon{
+            position: absolute;
+            color: red;
+            height: 14px;
+            width: 14px;
+            background-color: red;
+
+            @media all and (min-width:320px) and (max-width:1383px){
+                display: none;
+            }
+
+            &::before{
+                content: '';
+                position: absolute;
+                border: solid 2px black;
+                height: 26rem;
+                bottom: 13px;
+                left: 5px;
+                text-align: center;
+            }
+        }
+
+        .card{
+            position: relative;
+            width: fit-content;
+            height: auto;
+            margin-bottom: 5vh;
+            border-radius: 7px;
+            z-index: 1;
+            background-color: $veepee-white;
+    
+            .img-resort{
+                position: relative;
+    
+                img{
+                    border-radius: 4px 4px 0px 0px;
+                    width: 100%;
+                }
+    
+                .price{
+                    position: absolute;
+                    font-weight: bolder;
+                    text-transform: uppercase;
+                    color: whithe;
+                    color: white;
+                    right: 3%;
+                    bottom: 0;
+                }
+            }
+    
+            .footer-card{
+                position: relative;
+                display: flex;
+                padding:4%;
+    
+                .description{
+                    width: 100%;
+                    h3,p{
+                        margin-bottom: 8px;
+                        margin-top: 0;
+                        text-transform: capitalize;
+                    }
+
+                    h3{
+                        @media all and (min-width:320px) and (max-width:475px){
+                            font-size: 14px;
+                        }
+
+                        .media{
+                            @media all and (min-width:320px) and (max-width:475px){
+                                font-weight: 300;
+                            }
+                        }
+                    }
+
+                    p{
+                        @media all and (min-width:320px) and (max-width:475px){
+                            font-size: 11px;
+                        }
+                    }
+
+                    .rating{
+                        font: icon;
+                    }
+    
+                    .premium,.option{
+                        text-transform:uppercase;
+                        font-size: 11px;
+                        color:$veepee-white;
+                        font-weight: 400;
+                        padding:1%;
+                    }
+                    .premium{
+                        margin-right: 5%;
+                        background-color: $veepee-black;
+                    }
+                    .option{
+                        background-color: $veepee-or;
+                    }
+
+                    .premium,.option{
+                        @media all and (min-width:320px) and (max-width:475px){
+                            font-size: 9px;
+                        }
+                    }
+    
+                }
+    
+                .btn-view{
+                    position: absolute;
+                    right: 8%;
+                    top: 50%;
+                    padding: 2%;
+                    transform: translateY(-50%);
+                    background-color: $veepee-orange;
+
+                    .fa-chevron-right{
+                        color:$veepee-white;
+                        font-size: x-large;
+                        padding-left: 5px;
+                        padding-right: 5px;
+
+                        @media all and (min-width:320px) and (max-width:475px){
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

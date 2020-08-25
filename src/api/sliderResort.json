@@ -1,0 +1,67 @@
+{
+    "slider":[
+
+        {
+            "id": 1,
+            "img_url": "LAGUNA_BEACH.png",
+            "country": "Maurice",
+            "place": "Grand Rivière",
+            "label": "Laguna Beach Hotel & Spa",
+            "rating": "4*",
+            "upto": "Jusqu'à -64%",
+            "redirect_label": "VERS MAURICE — GRAND RIVIÈRE",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "Tout inclus"
+                },
+                {
+                    "classname": "option",
+                    "label": "Spa"
+                }
+            ],
+            "link": ""
+        },
+        {   "id": 2,
+            "img_url": "IMPIANA_RESORT_SAMUI.png",
+            "country": "Thaïlande",
+            "place": "Koh Samui",
+            "label": "Impiana Resort Samui",
+            "rating": "4*",
+            "upto": "Jusqu'à -70%",
+            "redirect_label": "VERS LA THAÏLANDE — KOH SAMUI",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "Massage offert"
+                },
+                {
+                    "classname": "option",
+                    "label": "Surclassement offert"
+                }
+            ],
+            "link": ""
+        },
+        {
+            "id": 3,
+            "img_url": "JAPON.jpg",
+            "country": "Japon",
+            "place": "Tokyo",
+            "label": "Grand Arc Hanzomon",
+            "rating": "3*",
+            "upto": "Dès 114€",
+            "redirect_label": "VERS LE JAPON — GRAND ARC HANZOMON",
+            "tags": [
+                {
+                    "classname": "premium",
+                    "label": "City Break"
+                },
+                {
+                    "classname": "option",
+                    "label": "Insolite"
+                }
+            ],
+            "link": ""
+        }
+    ]
+}
